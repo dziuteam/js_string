@@ -6,5 +6,6 @@ console.log(text);
 text = text.replace('Papugi', animal);
 console.log(text);
 console.log(text.length);
-var textHalfChars = text.substr((text.length)/2);
+var textHalfChars = text.substr((text.length)/4);
 console.log(textHalfChars); 
+console.log(textHalfChars.length);
